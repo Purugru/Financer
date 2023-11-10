@@ -1,0 +1,38 @@
+.navbar {
+  background-color: #008080; /* Teal background color */
+  border-radius: 0 0 10px 10px; /* Add border-radius for curved corners */
+  padding-left: 20px; /* Add 20px padding to the left */
+  padding-right: 50px; /* Add 20px padding to the right */
+}
+
+.navbar-brand {
+  font-size: 40px; /* Increase font size by 20px */
+  border-radius: 10px; /* Add border-radius for curved corners */
+  margin-right: auto; /* Push brand to the left */
+}
+
+.navbar-nav {
+  margin-left: auto; /* Push nav items to the right */
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff; /* White color for the navigation links */
+  font-size: 20px; /* Increase font size by 10px */
+  border-radius: 10px; /* Add border-radius for curved corners */
+}
+
+.navbar-nav .nav-link:hover {
+  background-color: #006666; /* Darker teal on hover */
+}
+
+.navbar-nav .nav-item {
+  margin-right: 10px; /* Add spacing between navigation items */
+}
+
+.navbar-nav .nav-item:last-child {
+  margin-right: 0; /* Remove margin for the last item */
+}
+
+.navbar-nav .faUser {
+  margin-right: 5px; /* Add spacing between icon and text */
+}
