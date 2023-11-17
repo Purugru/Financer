@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import cpfm from './cpfm.png';
 import '../App.css'
+import './pagecss/Home.css'
 const Home = () => {
 
   return (
@@ -52,14 +53,25 @@ const Home = () => {
           <h2>Recent Transactions</h2>
         </div>
       </div>
+      <div className="teal-grid">
+        <div className="teal-segment"></div>
+        <div className="teal-segment"></div>
+        <div className="teal-segment"></div>
+        <div className="teal-segment"></div>
+      </div>
       <div className="divider"></div>
       <div className="row mt-3">
         <div className="col-md-12">
           <h2>Goals</h2>
         </div>
       </div>
-      <div className="divider"></div>
+      <div className="teal-grid-goals">
+        <div className="teal-segment-goals"></div>
+        <div className="teal-segment-goals"></div>
+        <div className="teal-segment-goals-half"></div>
+      </div>
     </div>
+    
   );
 }
 

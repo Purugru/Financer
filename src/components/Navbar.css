@@ -1,3 +1,5 @@
+/* Navbar.css */
+
 .navbar {
   background-color: #008080; /* Teal background color */
   border-radius: 0 0 10px 10px; /* Add border-radius for curved corners */
@@ -35,4 +37,17 @@
 
 .navbar-nav .faUser {
   margin-right: 5px; /* Add spacing between icon and text */
+}
+
+.dropdown-menu {
+  border-radius: 10px; /* Add border-radius for curved corners */
+}
+
+/* Teal button style */
+.teal-button {
+  background-color: #008080;
+  color: #ffffff;
+  border-radius: 10px;
+  padding: 10px;
+  text-decoration: none;
 }

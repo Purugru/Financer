@@ -28,3 +28,9 @@
 .more-offers-btn {
   margin-top: 10px;
 }
+
+.invisible-divider {
+  height: 50px;
+  width: 100%;
+  visibility: hidden;
+}

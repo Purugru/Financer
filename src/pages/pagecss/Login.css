@@ -1,0 +1,77 @@
+/* Login.css */
+
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    max-width: 600px; /* Set a maximum width */
+    margin: 0 auto; /* Center the container */
+  }
+  
+  .teal-box {
+    background-color: #008080;
+    border-radius: 25px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 80%; /* Adjusted width */
+  }
+  
+  .teal-box h1 {
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .input-section {
+    margin-bottom: 15px;
+  }
+  
+  .input-section label {
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
+  .signup-button,
+  .back-button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .signup-button {
+    background-color: #ffffff;
+    color: #008080;
+    margin-top: 10px;
+  }
+  
+  .back-button {
+    background-color: #008080;
+    color: #ffffff;
+    margin-top: 10px;
+  }
+  
+  .invalid-feedback {
+    color: #ff6347;
+    font-size: 14px;
+  }
+  
+  /* Add some space between buttons */
+  .signup-button + .back-button {
+    margin-top: 10px;
+  }
+  
+  .caps-lock-warning {
+    color: red;
+    visibility: hidden;
+    margin-top: 5px;
+  }
+  
+  

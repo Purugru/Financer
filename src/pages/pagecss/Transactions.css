@@ -1,0 +1,93 @@
+/* Transactions.css */
+
+.transactions-container {
+    padding: 20px; /* Add some padding for better spacing */
+  }
+  
+  .teal-grid-goals {
+    width: 100%;
+    display: grid;
+    width: calc(100% - 40px); /* Adjust width to include both left and right margins */
+    grid-template-columns: repeat(2, 1fr) 0.5fr; /* Two equal columns and one half-width column */
+    grid-template-rows: 150px 150px 150px ;
+    gap: 10px; /* Add some gap between segments */
+    overflow-x: auto; /* Enable horizontal scrolling if necessary */
+    margin: 0 20px; /* Adjust margin to bring segments closer towards the center */
+  }
+  
+  .teal-segment-income,
+  .teal-segment-expense{
+    flex: 0 0 auto; /* Allow the segments to shrink as needed */
+    grid-row: 470px;
+    background-color: teal;
+    border-radius: 50px;
+    height: 470px;
+  }
+  
+  .teal-segment-goals-h1 {
+    flex: 0 0 auto; /* Allow the segments to shrink as needed */
+    grid-row: 150px;
+    background-color: teal;
+    border-radius: 50px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+  }
+  .teal-segment-goals-h2 {
+    flex: 0 0 auto; /* Allow the segments to shrink as needed */
+    grid-row: 150px;
+    background-color: teal;
+    border-radius: 50px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+  }
+  .teal-segment-goals-h3 {
+    background-color: teal;
+    border-radius: 50px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer; /* Make it look like a button */
+    padding: 10px; /* Add some padding to match the white section */
+    border: none; /* Remove the default button border */
+    height: 150px; /* Match the height of the white section */
+  }
+  
+
+  .white-section {
+    position: relative;
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid teal;
+  }
+  
+  .text-green {
+    color: green;
+    font-size: 50px;
+    font-weight: 500;
+  }
+  
+  .text-red {
+    color: red;
+    font-size: 50px;
+    font-weight: 500;
+  }
+
+  .link-style {
+    background-color: none;
+    border: none;
+    padding: 0;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  .white-text {
+    color: white;
+  }
+  

@@ -1,0 +1,51 @@
+/* Profile.css */
+
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Add a gap between rows */
+  margin: 20px; /* Add a gap from both ends of the page and from the top */
+}
+
+.profile-row {
+  display: flex;
+  flex: 1;
+  gap: 20px; /* Add a gap between columns in each row */
+}
+
+.profile-image-col {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-image {
+  border-radius: 50%;
+}
+
+.teal-box {
+  flex: 1;
+  background-color: teal;
+  border-radius: 20px;
+}
+
+.profile-details-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-basic-details,
+.additional-details {
+  color: white;
+  padding: 20px;
+}
+
+.profile-label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.profile-data {
+  margin-top: 5px;
+}

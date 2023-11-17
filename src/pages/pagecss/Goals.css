@@ -1,0 +1,15 @@
+.teal-grid-goals {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Two equal columns and one half-width column */
+  gap: 10px; /* Add some gap between segments */
+  overflow-x: auto; /* Enable horizontal scrolling if necessary */
+  margin: 0 20px; /* Adjust margin to bring segments closer towards the center */
+}
+
+.teal-segment-goals {
+  flex: 0 0 auto; /* Allow the segments to shrink as needed */
+  height: 150px;
+  background-color: teal;
+  margin-right: 10px; /* Add some margin between segments */
+  border-radius: 10px 10px 10px 10px;
+}
