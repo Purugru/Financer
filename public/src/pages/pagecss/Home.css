@@ -1,0 +1,44 @@
+.home-container {
+    /* Add styles for the main container of the Home page */
+    margin-top: 10px;
+  }
+  
+  .teal-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    overflow-x: auto;
+    margin: 0 20px;
+  }
+  
+  .teal-segment {
+    flex: 0 0 auto;
+    height: 300px;
+    background-color: teal;
+    margin-right: 10px;
+    border-radius: 10px 10px 10px 10px;
+  }
+  
+  
+  .teal-grid-goals {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) 0.5fr; /* Two equal columns and one half-width column */
+    gap: 10px; /* Add some gap between segments */
+    overflow-x: auto; /* Enable horizontal scrolling if necessary */
+    margin: 0 20px; /* Adjust margin to bring segments closer towards the center */
+  }
+  
+  .teal-segment-goals {
+    flex: 0 0 auto; /* Allow the segments to shrink as needed */
+    height: 150px;
+    background-color: teal;
+    margin-right: 10px; /* Add some margin between segments */
+    border-radius: 10px 10px 10px 10px;
+  }
+  
+  .teal-segment-goals-half {
+    flex: 0 0 auto; /* Allow the segments to shrink as needed */
+    height: 150px;
+    background-color: teal;
+    border-radius: 10px 10px 10px 10px;
+  }

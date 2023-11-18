@@ -1,0 +1,36 @@
+.divider {
+  border-top: 1px solid #008080; /* Teal color */
+  margin: 10px 0; /* Add 10 pixels of margin above and below */
+}
+
+.offer-heading {
+  display: flex;
+  align-items: center;
+}
+
+.offer-heading i {
+  margin-left: 5px;
+}
+
+.card-container {
+  display: flex;
+  overflow-x: auto;
+}
+
+.card {
+  margin-right: 10px;
+}
+
+.card img {
+  max-width: 100%;
+}
+
+.more-offers-btn {
+  margin-top: 10px;
+}
+
+.invisible-divider {
+  height: 50px;
+  width: 100%;
+  visibility: hidden;
+}
